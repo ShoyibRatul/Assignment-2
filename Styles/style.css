@@ -2,7 +2,11 @@
         Html Body 
  ------------------ */
 body {
-    background-color: rgb(211, 241, 231);
+    margin: 0;
+}
+
+main {
+    margin: 50px 140px 100px 140px;
 }
 
 /*----------------------------
@@ -15,11 +19,12 @@ body {
     border-radius: 40px;
     color: white;
     border-radius: 15px;
-    margin: 50px 140px 100px 140px;
+    margin-bottom: 50px;
+
 }
 
 .heading-1 h1 {
-    font-family: 'Roboto Slab', serif;
+
     font-weight: 700;
     font-size: 70px;
     margin-bottom: 35px;
@@ -27,6 +32,7 @@ body {
 }
 
 .heading-1 p {
+    font-family: 'Roboto Slab', serif;
     font-weight: 400;
     font-size: 16px;
     margin-bottom: 35px;
@@ -49,6 +55,7 @@ body {
 }
 
 .button-1 a {
+    font-family: 'Roboto Slab', serif;
     text-decoration: none;
     color: white;
     background-image: linear-gradient(#DD0000, #e20505, #ec0404);
@@ -60,4 +67,105 @@ body {
 
 .button-1:hover {
     display: block;
+}
+
+
+/*-----------------------
+        Blog Area
+ ------------------------ */
+
+/* buttons */
+.buttons {
+    background-color: black;
+    padding: 50px;
+    width: 250px;
+    border-radius: 15px;
+}
+
+.buttons a {
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+
+}
+
+.buttons .button-2,
+.button-3,
+.button-4 {
+
+    background-color: white;
+    padding: 17px 50px;
+    border-radius: 10px;
+    margin-top: 30px;
+    text-align: center;
+
+}
+
+/* Blogs */
+.blog-area {
+    display: flex;
+    align-items: flex-start;
+    grid-column-gap: 20px;
+}
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+.blog-1 {
+    border: 1px solid gray;
+    border-radius: 17px;
+}
+
+.blog1-img {
+    width: 100%;
+    margin-bottom: 10px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.blog-1 a {
+    color: black;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 3px 5px;
+    border-radius: 5px;
+}
+
+.blog-details {
+    padding-left: 15px;
+    padding-right: 10px;
+    font-weight: 700;
+}
+
+.mini-icons {
+    display: flex;
+    justify-content: space-evenly
+}
+
+/*--------------------------
+ footer area styles 
+ --------------------------*/
+#footer {
+    margin-top: 200px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px 300px;
+}
+
+footer h1 {
+    font-size: 40px;
+}
+
+.footer-options {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-options p {
+    margin: 0 30px;
 }
