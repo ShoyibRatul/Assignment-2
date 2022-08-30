@@ -89,9 +89,9 @@ main {
 
 }
 
-.buttons .button-2,
+.buttons .button-4,
 .button-3,
-.button-4 {
+.button-2 {
 
     background-color: white;
     padding: 17px 50px;
@@ -101,27 +101,27 @@ main {
 
 }
 
-.button-2 a:hover {
+.button-4 a:hover {
     color: white;
     background-color: gray;
 
 }
 
-.button-2:hover {
+.button-4:hover {
     background-color: gray;
 
 }
 
-.button-4 {
+.button-2 {
 
     background-image: linear-gradient(#DD0000, #e20505, #ec0404);
 }
 
-.button-4 a {
+.button-2 a {
     color: white;
 }
 
-/* Blogs */
+/* Upcoming Matches */
 .blog-area {
     display: flex;
     align-items: flex-start;
