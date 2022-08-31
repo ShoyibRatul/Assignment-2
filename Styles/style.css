@@ -246,7 +246,6 @@ footer h1 {
         margin-top: 0;
         background-color: white;
         align-content: center;
-        margin-left: 100px;
         padding-top: 0;
         padding-left: 0;
         padding-right: 0;
@@ -296,12 +295,4 @@ footer h1 {
  Media Quries Mobile
  ------------------------ */
 
-@media screen and (max-width: 767px) {
-
-    /* section-1 banner */
-    .first-banner {
-        width: 100%;
-        margin-bottom: 0px;
-        display: block;
-    }
-}
+@media screen and (max-width: 767px) {}
