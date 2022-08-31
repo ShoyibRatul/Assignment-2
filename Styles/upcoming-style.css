@@ -199,3 +199,92 @@ footer h1 {
     color: white;
 
 }
+
+/*-------------------------
+ Media Quries Tablet
+ ------------------------ */
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    /* section-1 banner */
+    .first-banner {
+        width: 100%;
+        margin-bottom: 0px;
+    }
+
+    .heading-1 {
+        padding: 70px 20px 70px 40px;
+    }
+
+    .heading-1 h1 {
+        font-size: 25px;
+    }
+
+    .heading-1 p {
+        font-size: 8px;
+    }
+
+    .button-1 {
+        font-size: 10px;
+    }
+
+    /* Blog- Buttons */
+    .blog-area {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .buttons {
+        display: flex;
+        margin-top: 0;
+        background-color: white;
+        align-content: center;
+        margin-left: 100px;
+        padding-top: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .buttons a {
+        text-decoration: none;
+        color: black;
+        font-weight: 800;
+        text-align: center;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .button-2,
+    .button-3,
+    .button-4 {
+
+        border: 1px solid;
+        padding: 10px 45px;
+        margin-right: 20px;
+        font-size: 12px;
+
+
+    }
+
+    .matches {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    .footer-options {
+        display: grid;
+        grid-template-columns: repeat(3, 4fr);
+    }
+
+    .footer-options p {
+        font-size: 12px;
+        padding: 20px;
+    }
+}
+
+
+
+/*-------------------------
+ Media Quries Mobile
+ ------------------------ */
