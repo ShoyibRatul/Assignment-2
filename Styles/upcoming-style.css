@@ -65,8 +65,9 @@ main {
     font-weight: 800;
 }
 
-.button-1:hover {
-    display: block;
+.button-1 a:hover {
+    background-image: linear-gradient(#e64693, #9d257b, #dc3636);
+
 }
 
 
@@ -135,36 +136,32 @@ main {
     grid-row-gap: 20px;
 }
 
-.blog-1 {
-    border: 1px solid gray;
-    border-radius: 17px;
+.matches {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+
 }
 
-.blog1-img {
-    width: 100%;
-    margin-bottom: 10px;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-}
+.match-1 {
 
-.blog-1 a {
-    color: black;
-    text-decoration: none;
-    border: 1px solid black;
-    padding: 3px 5px;
+    border: 1px solid grey;
+    padding: 15px;
     border-radius: 5px;
+    box-shadow: 3px 6px 6px gray;
+    text-align: center;
 }
 
-.blog-details {
-    padding-left: 15px;
-    padding-right: 10px;
-    font-weight: 700;
+.match-1-flags {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 
-.mini-icons {
-    display: flex;
-    justify-content: space-evenly
+.match1-details {
+    text-align: center;
 }
+
 
 /*--------------------------
  footer area styles 

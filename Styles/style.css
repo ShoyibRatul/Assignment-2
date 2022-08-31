@@ -65,8 +65,9 @@ main {
     font-weight: 800;
 }
 
-.button-1:hover {
-    display: block;
+.button-1 a:hover {
+    background-image: linear-gradient(#e64693, #9d257b, #dc3636);
+
 }
 
 
@@ -100,6 +101,7 @@ main {
     text-align: center;
 
 }
+
 
 .button-2 a:hover {
     color: white;
