@@ -205,6 +205,9 @@ footer h1 {
  ------------------------ */
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
+    main {
+        margin: 50px;
+    }
 
     /* section-1 banner */
     .first-banner {
@@ -236,51 +239,47 @@ footer h1 {
 
     .buttons {
         display: flex;
-        margin-top: 0;
         background-color: white;
         align-content: center;
-        margin-left: 100px;
-        padding-top: 0;
-        padding-left: 0;
-        padding-right: 0;
+        margin: ;
+
     }
 
-    .buttons a {
-        text-decoration: none;
-        color: black;
-        font-weight: 800;
-        text-align: center;
-        justify-content: center;
-        padding: 0;
-    }
 
     .button-2,
     .button-3,
     .button-4 {
 
         border: 1px solid;
-        padding: 10px 45px;
-        margin-right: 20px;
         font-size: 12px;
 
+    }
+
+    .button-2 {
+        margin-right: 150px;
 
     }
 
-    .matches {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
+    .button-3 {
+        margin-right: 150px;
     }
+}
+
+.matches {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
 
 
-    .footer-options {
-        display: grid;
-        grid-template-columns: repeat(3, 4fr);
-    }
+.footer-options {
+    display: grid;
+    grid-template-columns: repeat(3, 4fr);
+}
 
-    .footer-options p {
-        font-size: 12px;
-        padding: 20px;
-    }
+.footer-options p {
+    font-size: 12px;
+    padding: 20px;
+}
 }
 
 

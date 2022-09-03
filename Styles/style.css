@@ -213,6 +213,10 @@ footer h1 {
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 
+    main {
+        margin: 50px;
+    }
+
     /* section-1 banner */
     .first-banner {
         width: 100%;
@@ -243,33 +247,29 @@ footer h1 {
 
     .buttons {
         display: flex;
-        margin-top: 0;
         background-color: white;
         align-content: center;
-        padding-top: 0;
-        padding-left: 0;
-        padding-right: 0;
+
+
     }
 
-    .buttons a {
-        text-decoration: none;
-        color: black;
-        font-weight: 800;
-        text-align: center;
-        justify-content: center;
-        padding: 0;
-    }
 
     .button-2,
     .button-3,
     .button-4 {
 
         border: 1px solid;
-        padding: 10px 45px;
-        margin-right: 20px;
         font-size: 12px;
 
+    }
 
+    .button-2 {
+        margin-right: 150px;
+
+    }
+
+    .button-3 {
+        margin-right: 150px;
     }
 
     .blogs {
@@ -295,4 +295,72 @@ footer h1 {
  Media Quries Mobile
  ------------------------ */
 
-@media screen and (max-width: 767px) {}
+@media screen and (max-width: 767px) {
+    main {
+        margin: 20px 20px 20px 20px;
+    }
+
+    /*--------------------------- 
+            First section with banner
+            --------------------------*/
+
+    .first-banner {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin-right: -260px;
+        text-align: center;
+    }
+
+    .heading-1 h1 {
+        font-size: 65px;
+        margin-top: 35px;
+        margin-bottom: 80px;
+    }
+
+    .heading-1 p {
+        margin-bottom: 70px;
+    }
+
+    .first-banner-img {
+        margin-top: -130px;
+    }
+
+    /* button area  */
+
+    .blog-area {
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: -65%;
+    }
+
+    .buttons {
+        display: grid;
+        background-color: white;
+        text-align: center;
+
+    }
+
+    .button-2,
+    .button-3,
+    .button-4 {
+
+        border: 1px solid;
+        font-size: 25px;
+    }
+
+    .blogs {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
+    /* footer  */
+
+    footer {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+}
